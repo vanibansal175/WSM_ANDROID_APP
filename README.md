@@ -58,7 +58,6 @@ Use password hashing and authorization on the backend. In particular, only the s
 Example base URL: `http://localhost:3000/api/v1` (replace with the configured server URL). Endpoint names and request shapes are proposals.
 
 | Method | Endpoint | Purpose |
-|---|---|---|
 | `POST` | `/auth/register` | Create an account. |
 | `POST` | `/auth/login` | Sign in and receive an access token. |
 | `GET` | `/machines` | List machines, optionally filtered by status or location. |
@@ -196,9 +195,6 @@ If a provider requires credentials, use its recommended secret-management approa
 - [ ] Add problem reports and profile settings.
 - [ ] Document deployment, API security, and production configuration.
 
-## Contributing
-
-Contributions and suggestions are welcome. Before opening a pull request, please describe the change and how it was checked. Add contribution guidelines here when the repository workflow is established.
 
 ## License
 
