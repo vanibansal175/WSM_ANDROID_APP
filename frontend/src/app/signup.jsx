@@ -1,6 +1,6 @@
 import { View, Text, Pressable, TextInput, Alert } from 'react-native';
 import { useState } from 'react';
-import { Foundation, Ionicons } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
 // import Ionicons from '@expo/vector-icons/Ionicons';
 export default function SignupScreen() {
     const [email, setEmail] = useState('');
