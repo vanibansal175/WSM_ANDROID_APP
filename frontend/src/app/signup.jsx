@@ -1,7 +1,7 @@
 import { View, Text, Pressable, TextInput, Alert } from 'react-native';
 import { useState } from 'react';
-import { Ionicons } from '@expo/vector-icons';
-// import Ionicons from '@expo/vector-icons/Ionicons';
+import  Ionicons  from 'expo/vector-icons/Ionicons';
+import SimpleLineIcons from 'expo/vector-icons/SimpleLineIcons'
 export default function SignupScreen() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -113,7 +113,7 @@ export default function SignupScreen() {
                                     color="#413e3e"
                                 />
                             ) : (
-                                <Foundation
+                                <SimpleLineIcons
                                     name="eye"
                                     size={20}
                                     color="#534c4c"
