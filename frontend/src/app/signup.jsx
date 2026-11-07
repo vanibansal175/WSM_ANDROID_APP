@@ -1,7 +1,7 @@
 import { View, Text, Pressable, TextInput, Alert } from 'react-native';
 import { useState } from 'react';
-import Ionicons from 'expo/vector-icons/Ionicons';
-import SimpleLineIcons from 'expo/vector-icons/SimpleLineIcons';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
 export default function SignupScreen() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
