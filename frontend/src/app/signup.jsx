@@ -214,3 +214,7 @@ export default function SignupScreen() {
         </View>
     );
 }
+
+
+
+       
