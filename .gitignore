@@ -38,3 +38,11 @@ dist/
 .env
 .env.local 
 /frontend/android/ 
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Backend logs
+npm-debug.log*
